@@ -14,7 +14,7 @@ interface location {
   }
   
 export  async function searchLocations(): Promise<location[]> {
-    const tripadvisorAPI= process.env.NEXT_PUBLIC_TRIPADIVSOR_API_KEY;
+    const tripadvisorAPI= process.env.NEXT_PUBLIC_TRIPADVISOR_API_KEY;
   const response = await fetch(
     `https://api.content.tripadvisor.com/api/v1/location/search?searchQuery=yemen&language=ar&key=${tripadvisorAPI}`,
     {
