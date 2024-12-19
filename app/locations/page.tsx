@@ -1,14 +1,8 @@
 import {searchLocations} from "@/actions/locations";
 import { use } from "react";
 
-
-
-// Server action to fetch locations
-
-
-// Component to render locations
 export default function locations() {
-  const locations = use(searchLocations());
+  const locations = use(searchLocations("yemen"));
 
   return (
     <div className="container">
