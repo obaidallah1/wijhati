@@ -1,0 +1,4 @@
+curl --request GET \
+	--url 'https://airbnb-listings.p.rapidapi.com/v2/listingsByZipcode?state=us&zipcode=92037&offset=0' \
+	--header 'x-rapidapi-host: airbnb-listings.p.rapidapi.com' \
+	--header 'x-rapidapi-key: ea93303183msh16fa2fb06c78d87p11ee1ejsn0d9f7cf460e5'
