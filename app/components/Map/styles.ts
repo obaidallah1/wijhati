@@ -13,4 +13,8 @@ export default makeStyles(() => ({
   pointer: {
     cursor: 'pointer',
   },
+  typography: {
+    // Add any typography styles you need here
+    fontSize: '14px', // Example style, adjust as needed
+  },
 }));
